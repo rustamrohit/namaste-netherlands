@@ -1,36 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 260" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
   <title id="title">Namaste Netherlands logo</title>
-  <desc id="desc">A blue windmill above a pair of hands with Namaste Netherlands text.</desc>
-  <rect width="840" height="260" fill="#050b12"/>
+  <desc id="desc">Blue windmill and hands with Namaste Netherlands in white on black background</desc>
+  <rect width="900" height="620" fill="#000000"/>
 
-  <g transform="translate(250 18)">
-    <g transform="translate(134 0)">
-      <g fill="#0c78d6">
-        <rect x="28" y="-10" width="20" height="140" rx="10" transform="rotate(45 38 60)"/>
-        <rect x="28" y="-10" width="20" height="140" rx="10" transform="rotate(135 38 60)"/>
-        <rect x="28" y="-10" width="20" height="140" rx="10" transform="rotate(-45 38 60)"/>
-        <rect x="28" y="-10" width="20" height="140" rx="10" transform="rotate(-135 38 60)"/>
+  <g transform="translate(0 2)">
+    <g transform="translate(290 30)">
+      <g fill="#0d7edb">
+        <rect x="172" y="-4" width="24" height="220" rx="12" transform="rotate(45 184 106)"/>
+        <rect x="172" y="-4" width="24" height="220" rx="12" transform="rotate(135 184 106)"/>
+        <rect x="172" y="-4" width="24" height="220" rx="12" transform="rotate(-45 184 106)"/>
+        <rect x="172" y="-4" width="24" height="220" rx="12" transform="rotate(-135 184 106)"/>
       </g>
-      <g fill="#6a7f8f" opacity="0.9">
-        <path d="M30 85 L120 90 L150 128 L34 128 Z" transform="rotate(45 90 110)"/>
-        <path d="M30 85 L120 90 L150 128 L34 128 Z" transform="rotate(-45 90 110)"/>
+
+      <g fill="#d9e4ef" opacity="0.85">
+        <path d="M184 104 L264 98 L292 122 L200 126 Z" transform="rotate(45 228 108)"/>
+        <path d="M184 104 L264 98 L292 122 L200 126 Z" transform="rotate(-45 228 108)"/>
+        <path d="M184 104 L264 98 L292 122 L200 126 Z" transform="rotate(135 228 108)"/>
+        <path d="M184 104 L264 98 L292 122 L200 126 Z" transform="rotate(-135 228 108)"/>
       </g>
-      <g fill="#d3a05c">
-        <path d="M30 95 C12 104, 12 144, 35 150 C57 155, 70 145, 79 130 C64 123, 51 111, 30 95 Z" transform="rotate(-18 60 125)"/>
-        <path d="M26 95 C6 104, 7 144, 30 152 C49 158, 64 150, 75 136 C58 127, 48 116, 26 95 Z" transform="rotate(18 55 128)"/>
-        <path d="M120 95 C138 104, 138 144, 116 150 C95 155, 80 145, 71 130 C88 123, 101 111, 120 95 Z" transform="rotate(18 96 128)"/>
-        <path d="M124 95 C144 105, 145 144, 122 150 C101 158, 88 150, 78 136 C95 127, 104 116, 124 95 Z" transform="rotate(-18 101 128)"/>
+
+      <g fill="#d6aa5d">
+        <path d="M118 187 C92 196, 92 247, 124 252 C154 256, 176 247, 185 228 C166 219, 150 205, 118 187 Z" transform="rotate(-22 154 220)"/>
+        <path d="M118 187 C93 198, 90 246, 120 254 C146 260, 168 250, 181 236 C164 226, 150 211, 118 187 Z" transform="rotate(18 148 220)"/>
+        <path d="M246 188 C273 196, 273 247, 242 251 C212 255, 190 246, 182 228 C202 219, 218 204, 246 188 Z" transform="rotate(18 217 220)"/>
+        <path d="M245 188 C271 197, 275 244, 245 252 C219 260, 196 250, 181 236 C198 226, 214 209, 245 188 Z" transform="rotate(-18 214 220)"/>
       </g>
-      <g fill="#d9dfe6" opacity="0.85">
-        <path d="M18 140 C40 122, 79 120, 108 141 L96 168 C70 155, 46 155, 18 170 Z"/>
-        <path d="M108 140 C128 120, 170 120, 192 141 L176 170 C151 157, 129 156, 108 170 Z"/>
+
+      <g fill="#d9dfe6" opacity="0.9">
+        <path d="M96 244 C129 219, 180 218, 214 247 L196 298 C165 281, 126 280, 96 300 Z"/>
+        <path d="M214 244 C254 219, 308 217, 338 246 L324 298 C281 280, 243 281, 214 300 Z"/>
+      </g>
+
+      <g fill="#1b3f5a" opacity="0.25">
+        <path d="M179 102 L191 120 L183 170 L173 120 Z"/>
       </g>
     </g>
-  </g>
 
-  <g fill="#fff" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
-    <text x="420" y="182" font-size="64" font-weight="800" letter-spacing="2">NAMASTE</text>
-    <text x="420" y="226" font-size="54" font-weight="800" letter-spacing="1">NETHERLANDS</text>
-    <text x="420" y="244" font-size="18" font-weight="700" opacity="0.9" letter-spacing="1">Culture.Celebration.Connection</text>
+    <g fill="#ffffff" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+      <text x="450" y="430" font-size="118" font-weight="800" letter-spacing="1">NAMASTE</text>
+      <text x="450" y="520" font-size="103" font-weight="800" letter-spacing="1">NETHERLANDS</text>
+      <text x="450" y="565" font-size="30" font-weight="700" opacity="0.9" letter-spacing="1">Culture.Celebration.Connection</text>
+    </g>
   </g>
 </svg>
