@@ -50,6 +50,7 @@ img {
 }
 
 .nav-wrap {
+  position: relative;
   max-width: 1200px;
   margin: 0 auto;
   min-height: 100px;
@@ -73,6 +74,7 @@ img {
 
 .nav-right {
   justify-content: flex-end;
+  margin-left: auto;
 }
 
 .nav-group a {
@@ -90,15 +92,21 @@ img {
 }
 
 .brand-wordmark {
-  flex: 0 0 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   color: #fff;
   font-weight: 900;
-  line-height: 0.9;
+  line-height: 1;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   font-size: clamp(1.1rem, 2vw, 2.1rem);
   min-width: 220px;
+  white-space: nowrap;
 }
 
 .page-shell {
@@ -392,6 +400,7 @@ footer {
     justify-content: center;
     padding-top: 12px;
     padding-bottom: 12px;
+    position: relative;
   }
 
   .nav-group {
@@ -400,6 +409,8 @@ footer {
   }
 
   .brand-wordmark {
+    position: static;
+    transform: none;
     order: -1;
     min-width: 180px;
     font-size: 1.2rem;
