@@ -127,7 +127,7 @@ img {
   line-height: 1.1;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  font-size: clamp(1.15rem, 1.8vw, 1.9rem);
+  font-size: clamp(1.45rem, 2vw, 2.3rem);
   white-space: nowrap;
 }
 
@@ -448,7 +448,7 @@ footer {
   }
 
   .brand-wordmark {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .hero,
@@ -476,7 +476,7 @@ footer {
   }
 
   .brand-wordmark {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .brand-logo {
