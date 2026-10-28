@@ -93,26 +93,26 @@ img {
 }
 
 .brand-wrap {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  position: static;
+  transform: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  max-width: calc(100% - 420px);
+  margin-right: auto;
   min-width: 0;
+  max-width: none;
 }
 
 .brand-logo {
-  width: 40px;
-  height: 40px;
+  width: 46px;
+  height: 46px;
   flex-shrink: 0;
   object-fit: contain;
-  border-radius: 10px;
-  background: #fff;
-  padding: 4px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
 }
 
 .brand-wordmark {
@@ -122,10 +122,10 @@ img {
   text-align: center;
   color: #fff;
   font-weight: 900;
-  line-height: 1;
-  letter-spacing: 0.04em;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  font-size: clamp(0.8rem, 1.4vw, 1.3rem);
+  font-size: clamp(0.7rem, 1vw, 1.05rem);
   white-space: nowrap;
 }
 
@@ -431,18 +431,19 @@ footer {
   .brand-wrap {
     position: static;
     transform: none;
+    margin-right: 0;
     order: -1;
     min-width: 180px;
     max-width: 100%;
   }
 
   .brand-logo {
-    width: 38px;
-    height: 38px;
+    width: 40px;
+    height: 40px;
   }
 
   .brand-wordmark {
-    font-size: 1rem;
+    font-size: 0.82rem;
   }
 
   .hero,
@@ -470,12 +471,12 @@ footer {
   }
 
   .brand-wordmark {
-    font-size: 0.9rem;
+    font-size: 0.72rem;
   }
 
   .brand-logo {
-    width: 32px;
-    height: 32px;
+    width: 36px;
+    height: 36px;
   }
 
   .page-shell {
