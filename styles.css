@@ -63,29 +63,28 @@ img {
   padding: 8px 24px;
 }
 
+.nav-spacer {
+  width: 100%;
+}
+
 .nav-group {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: 24px;
-  flex: 1 1 0;
-}
-
-.nav-left {
-  justify-content: flex-start;
+  min-width: 180px;
 }
 
 .nav-right {
-  justify-content: flex-end;
-  margin-left: auto;
   justify-self: end;
 }
 
 .nav-group a {
   text-decoration: none;
   color: #fff;
-  font-size: 0.95rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   transition: opacity 0.2s ease;
 }
@@ -126,9 +125,9 @@ img {
   color: #fff;
   font-weight: 900;
   line-height: 1.1;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  font-size: clamp(0.8rem, 1.3vw, 1.1rem);
+  font-size: clamp(1.15rem, 1.8vw, 1.9rem);
   white-space: nowrap;
 }
 
@@ -449,7 +448,7 @@ footer {
   }
 
   .brand-wordmark {
-    font-size: 0.82rem;
+    font-size: 1rem;
   }
 
   .hero,
@@ -469,7 +468,7 @@ footer {
   }
 
   .nav-group a {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
 
   .brand-wrap {
@@ -477,7 +476,7 @@ footer {
   }
 
   .brand-wordmark {
-    font-size: 0.72rem;
+    font-size: 0.9rem;
   }
 
   .brand-logo {
