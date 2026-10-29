@@ -58,17 +58,19 @@ a {
   height: 82px;
   margin: 0 auto;
   padding: 0 24px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  justify-content: space-between;
   gap: 14px;
 }
 
 .logo-slot {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  flex: 0 0 auto;
+  justify-content: center;
+  grid-column: 2;
+  width: fit-content;
+  justify-self: center;
 }
 
 .brand-logo {
@@ -92,6 +94,8 @@ a {
   justify-content: flex-end;
   gap: 24px;
   flex: 0 0 auto;
+  grid-column: 3;
+  justify-self: end;
 }
 
 .nav-group a {
@@ -347,10 +351,11 @@ footer {
     gap: 6px;
     padding: 0 8px;
     height: 78px;
+    grid-template-columns: 1fr auto 1fr;
   }
 
   .nav-group {
-    gap: 8px;
+    gap: 12px;
     flex-shrink: 0;
   }
 
