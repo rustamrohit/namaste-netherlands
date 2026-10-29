@@ -55,7 +55,7 @@ a {
 
 .header-inner {
   max-width: 1200px;
-  height: 72px;
+  height: 82px;
   margin: 0 auto;
   padding: 0 24px;
   display: flex;
@@ -72,8 +72,8 @@ a {
 }
 
 .brand-logo {
-  width: 68px;
-  height: 68px;
+  width: 76px;
+  height: 76px;
   object-fit: contain;
   display: block;
   border-radius: 12px;
@@ -83,19 +83,7 @@ a {
 }
 
 .brand-wordmark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #ffffff;
-  font-weight: 900;
-  line-height: 1.1;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  font-size: clamp(0.9rem, 1.8vw, 1.45rem);
-  white-space: nowrap;
-  flex: 1 1 auto;
-  min-width: 0;
+  display: none;
 }
 
 .nav-group {
@@ -325,15 +313,9 @@ footer {
 
 @media (max-width: 820px) {
   .header-inner {
-    height: 64px;
+    height: 76px;
     padding: 0 12px;
     gap: 8px;
-  }
-
-  .brand-wordmark {
-    font-size: clamp(0.96rem, 3vw, 1.18rem);
-    letter-spacing: 0.04em;
-    white-space: nowrap;
   }
 
   .nav-group {
@@ -346,8 +328,8 @@ footer {
   }
 
   .brand-logo {
-    width: 68px;
-    height: 68px;
+    width: 76px;
+    height: 76px;
   }
 
   .hero,
@@ -365,10 +347,6 @@ footer {
     gap: 6px;
     padding: 0 8px;
     height: 78px;
-  }
-
-  .brand-wordmark {
-    display: none;
   }
 
   .nav-group {
