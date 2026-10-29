@@ -91,9 +91,16 @@ a {
 .nav-group {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   gap: 24px;
   flex: 0 0 auto;
+}
+
+.nav-group-left {
+  grid-column: 1;
+  justify-self: start;
+}
+
+.nav-group-right {
   grid-column: 3;
   justify-self: end;
 }
