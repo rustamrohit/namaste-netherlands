@@ -92,9 +92,10 @@ a {
   line-height: 1.1;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  font-size: clamp(0.72rem, 1.4vw, 1.2rem);
+  font-size: clamp(0.76rem, 1.3vw, 1.2rem);
   white-space: nowrap;
   flex: 1 1 auto;
+  min-width: 0;
 }
 
 .nav-group {
@@ -330,7 +331,7 @@ footer {
   }
 
   .brand-wordmark {
-    font-size: 0.72rem;
+    font-size: clamp(0.7rem, 2.8vw, 0.95rem);
     letter-spacing: 0.04em;
     white-space: nowrap;
   }
@@ -366,8 +367,11 @@ footer {
   }
 
   .brand-wordmark {
-    font-size: 0.62rem;
-    letter-spacing: 0.03em;
+    font-size: clamp(0.78rem, 3.6vw, 0.96rem);
+    letter-spacing: 0.02em;
+    line-height: 1.15;
+    white-space: normal;
+    text-align: left;
   }
 
   .nav-group {
