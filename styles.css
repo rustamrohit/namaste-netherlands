@@ -17,6 +17,7 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -69,7 +70,6 @@ a {
   align-items: center;
   justify-content: center;
   grid-column: 2;
-  width: fit-content;
   justify-self: center;
 }
 
@@ -101,10 +101,11 @@ a {
 .nav-group a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: 800;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
+  white-space: nowrap;
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
@@ -323,12 +324,12 @@ footer {
   }
 
   .nav-group {
-    gap: 24px;
+    gap: 18px;
   }
 
   .nav-group a {
-    font-size: 0.6rem;
-    letter-spacing: 0.06em;
+    font-size: 0.78rem;
+    letter-spacing: 0.05em;
   }
 
   .brand-logo {
@@ -360,7 +361,7 @@ footer {
   }
 
   .nav-group a {
-    font-size: 0.5rem;
+    font-size: 0.72rem;
     letter-spacing: 0.04em;
   }
 
